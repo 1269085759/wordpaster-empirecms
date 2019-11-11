@@ -58,14 +58,13 @@ function ECMS_ShowEditorJS($basepath=''){
 	$addcs=ECMS_ReturnEditorCx();
 	$base_path='ecmseditor/';
 	$wp_js = "<link type=\"text/css\" rel=\"Stylesheet\" href=\"$base_path"."WordPaster/css/WordPaster.css\" />
-<link type=\"text/css\" rel=\"Stylesheet\" href=\"$base_path"."WordPaster/js/skygqbox.css\" />
 <script type=\"text/javascript\" src=\"$base_path"."WordPaster/js/json2.min.js\" charset=\"utf-8\"></script>
-<script type=\"text/javascript\" src=\"$base_path"."WordPaster/js/jquery-1.4.min.js\" charset=\"utf-8\"></script>
-<script type=\"text/javascript\" src=\"$base_path"."WordPaster/js/skygqbox.js\" charset=\"utf-8\"></script>
+<script type=\"text/javascript\" src=\"$base_path"."WordPaster/js/jquery-1.8.3.min.js\" charset=\"utf-8\"></script>
+<script type=\"text/javascript\" src=\"$base_path"."WordPaster/js/layer-3.1.1/layer.js\" charset=\"utf-8\"></script>
 <script type=\"text/javascript\" src=\"$base_path"."WordPaster/js/w.edge.js\" charset=\"utf-8\"></script>
 <script type=\"text/javascript\" src=\"$base_path"."WordPaster/js/w.app.js\" charset=\"utf-8\"></script>
 <script type=\"text/javascript\" src=\"$base_path"."WordPaster/js/w.file.js\" charset=\"utf-8\"></script>
-<script type=\"text/javascript\" src=\"$base_path"."WordPaster/js/w.js\" charset=\"utf-8\"></script>";
+<script type=\"text/javascript\" src=\"$base_path"."WordPaster/js/w.layer.js\" charset=\"utf-8\"></script>";
 
 	$loadjs='<input type=hidden id=doecmseditor_eaddcs value="'.$addcs.'"> <script type="text/javascript" src="'.$basepath.'ckeditor.js?&empirecms=1"></script>'.$wp_js;
 
